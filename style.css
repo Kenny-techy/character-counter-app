@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 34);
+  color: #ffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 30px;
+  width: 500px;
+  background-color: rgba(124, 124, 124, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+  border: 1px solid rgb(75, 75, 75);
+}
+
+.container h1 {
+  font-size: 1.6em;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: rgb(0, 0, 34);
+  border-radius: 10px;
+  font-size: 1em;
+  color: #ffff;
+  outline: none;
+  resize: none;
+  transition: .2s;
+}
+
+textarea:focus {
+  box-shadow: 0 0 10px rgb(70, 70, 70);;
+}
+
+.progress-container {
+  /* border: 2px solid red; */
+}
+
+.progress-container p {
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: rgba(124, 124, 124);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar .fill {
+  /* width: 50%; */
+  width: 0%;
+  background-color: rgb(255, 225, 57);
+  height: 5px;
+  border-radius: 5px;
+}
